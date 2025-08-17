@@ -8,7 +8,6 @@ It displays the movie title, year, IMDb rating, genre, cast, and also provides a
 - Fetch movie details (title, year, rating, genre, actors, director, awards).
 - Show short or full plot.
 - Translate plot/synopsis into Bahasa Indonesia.
-- Fancy CLI banner with `figlet`/`pyfiglet`.
 
 ## 🚀 Installation
 ```bash
