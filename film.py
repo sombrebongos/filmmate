@@ -10,7 +10,7 @@ os.system("clear")
 os.system("figlet FilmMate")
 
 def translate_to_id(text: str) -> str:
-    """Terjemahkan teks Inggris -> Indonesia. Kembalikan '-' kalau kosong."""
+    
     if not text or text == "N/A":
         return "-"
     try:
@@ -69,3 +69,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nCancelled.")
     input("Press ENTER to exit, mate...")
+
